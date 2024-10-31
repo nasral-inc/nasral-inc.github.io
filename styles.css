@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+	font-family: Ubuntu, sans-serif;
+
+body {
+    background-color: #0B0B0B;
+    color: white;
+	margin: 0;
+}
+
+footer {
+	text-align: center;
+}
+
+.header {
+	text-transform: uppercase;
+	background-color: #1b1b1b;
+	padding-bottom: 0.27%;
+	padding-top: 0.27%;
+}
+.header-content > .header-element {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.header-content {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+.header-element {
+	display: inline-block;
+}	
