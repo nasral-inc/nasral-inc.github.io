@@ -31,7 +31,7 @@ footer {
 	display: inline-block;
 }
 
-.furrygayporn {
+.nasralgameawards {
 	display: inline-block;
 }
 
@@ -40,3 +40,14 @@ a[href^="https://honakac.itch.io"]{
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
+.container {
+	width: 80%;
+	border-top-right-radius: 90px;
+	border-bottom-left-radius: 90px;
+	border-bottom-right-radius: 90px;
+	border-top-left-radius: 90px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #1c1c1c;
+  }
