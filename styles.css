@@ -2,7 +2,7 @@
 
 * {
 	font-family: Ubuntu, sans-serif;
-
+}
 body {
     background-color: #0B0B0B;
     color: white;
@@ -19,7 +19,7 @@ footer {
 	padding-bottom: 0.27%;
 	padding-top: 0.27%;
 }
-.header-content > .header-element {
+.header-content a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -29,4 +29,14 @@ footer {
 }
 .header-element {
 	display: inline-block;
-}	
+}
+
+.furrygayporn {
+	display: inline-block;
+}
+
+a[href^="https://honakac.itch.io"]{
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+}
