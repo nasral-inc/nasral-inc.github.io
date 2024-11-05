@@ -29,14 +29,21 @@ footer {
 }
 .header-element {
 	display: inline-block;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .nasralgameawards {
 	display: inline-block;
 }
 
-a[href^="https://honakac.itch.io"]{
+a[href*="itch.io"]{
 	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a[href*="github.com"]{
+	color: #a3a3a3;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -50,4 +57,10 @@ a[href^="https://honakac.itch.io"]{
 	margin: 0 auto;
 	padding: 20px;
 	background-color: #1c1c1c;
-  }
+}
+
+.download-buton {
+	padding: 5px;
+	margin: 3px;
+	background-color: green;
+}
